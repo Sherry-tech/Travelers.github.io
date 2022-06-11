@@ -1,0 +1,125 @@
+
+.tourbar{
+	height:50px !important;
+	background-color:rgb(183, 201, 247, .7);
+}
+
+.tourbar ul li a{
+	color:#020000 !important;
+}
+
+.tourbar a p{
+	color:#020000 !important;
+}
+
+.imagecaption h1{
+	background-color:aqua;
+	color:black !important;
+    font-size:80px;
+	margin-bottom:250px;
+	margin-right:500px;
+}
+
+
+.tourdesc h1{
+	/* margin-left:150px; */
+	margin-top:20px;
+}
+
+.tourdesc p{
+	/* margin-left:140px; */
+	margin-top:20px;
+	font-size:20px;
+}
+
+.about-head{
+	background-size:cover;
+	background-image:url(../../img/4.jpg);
+	padding-top:250px;
+	padding-bottom:250px;
+	
+}
+
+.about-head h1{
+	background-color:rgb(0,0,50,0.7);
+}
+
+.feedback{
+	width:160px !important;
+	height:160px;
+	/* margin-left:30px; */
+	/* margin-top:10px; */
+} 
+
+
+.tourhotel{
+	background-color:#FAFAFA;
+	padding-top:100px;
+	padding-bottom:100px;
+	/* padding-right:50px; */
+}
+
+.tourhotel h1{
+	padding-left:20px;
+}
+
+.tourhotel input{
+/* border:5px #F0F0F0 solid; */
+outline:15px #F0F0F0  solid;
+display:block;
+width:100%;
+
+}
+
+.hotelcardoo{
+	float:right;
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+
+.footer-bg{
+	background-color:#2C2E3E !important;
+	height:600px;
+}
+
+.material-1{
+	font-size:25px;
+	margin-top:100px;
+}
+
+.footericon i{
+	margin-top:100px;
+	size:30px !important;
+	color:#fff !important;
+}
+
+.card-hover2{
+	background:transparent !important;
+	overflow:hidden;
+}
+.card-hover2 .card-body{
+	position:relative !important;
+}
+.card-hover2 .card-layer{
+	transition:all 1s;
+	height:200px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transform:translatey(170px);
+	z-index:-1;
+}
+.card-hover2:hover .card-layer{
+	transform:translatey(0px);
+	background:rgba(10,10,10,.7);
+}
+.card-hover2 h4,p{
+	transition:all .7s .3s;
+}
+.card-hover2:hover h4{
+	color:#fff;
+}
+.card-hover2:hover p{
+	color:#fff;
+}

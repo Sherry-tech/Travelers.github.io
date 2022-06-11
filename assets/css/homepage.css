@@ -1,0 +1,155 @@
+
+.homebar{
+	padding-top:10px !important;
+	height:50px !important;
+	background-color:rgba(126, 38, 153,.3);
+}
+
+.homebar a p{
+	color:#fff !important;
+}
+
+.homebar ul li a{
+	color:#fff !important;
+}
+
+.tourslider img{
+	width:100%;
+	height:630px;
+    background:cover;
+}
+
+.tourtab{
+    padding-bottom:-50px;
+}
+
+.homedesc p{
+	margin-top:50px;
+	/* font-size:20px; */
+}
+
+.homedesc h1{
+	margin-top:50px;
+}
+
+.tourtype img{
+	width:200px !important;
+	height:200px !important;
+}
+.tourtype h1{
+	font-size:20px !important;
+	margin-top:10px;
+}
+.tourtype a{
+	color:#FF9494 !important;
+}
+
+.tourserv{
+	background:#FAFAFA;
+}
+
+.headmeasure h1{
+	margin-bottom:30px;
+	
+}
+.feedback{
+	width:160px !important;
+	height:160px;
+	/* margin-left:30px; */
+	/* margin-top:10px; */
+} 
+
+.tourhotel{
+	background-color:#FAFAFA;
+	padding-top:100px;
+	padding-bottom:100px;
+	/* padding-right:50px; */
+}
+
+.tourhotel h1{
+	padding-left:20px;
+}
+
+.tourhotel input{
+/* border:5px #F0F0F0 solid; */
+outline:15px #F0F0F0  solid;
+display:block;
+width:100%;
+
+}
+
+.hotelcardoo{
+	float:right;
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+
+.tourblog{
+	width:100%;
+	height:200%;
+}
+
+.footer-bg{
+	background-color:#2C2E3E !important;
+	/* height:600px; */
+}
+
+.material-1{
+	font-size:25px;
+	margin-top:100px;
+}
+
+.footericon i{
+	margin-top:100px;
+	font-size:30px !important;
+	color:#fff !important;
+}
+
+.card-hover .card-body{
+	transition:all 1s;
+}
+.card-hover:hover .card-body{
+	background:red;
+}
+
+.card-hover2{
+	background:transparent !important;
+	overflow:hidden;
+}
+.card-hover2 .card-body{
+	position:relative !important;
+}
+.card-hover2 .card-layer{
+	transition:all 1s;
+	height:200px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transform:translatey(170px);
+	z-index:-1;
+}
+.card-hover2:hover .card-layer{
+	transform:translatey(0px);
+	background:rgba(10,10,10,.7);
+}
+.card-hover2 h4,p{
+	transition:all .7s .3s;
+}
+.card-hover2:hover h4{
+	color:#fff;
+}
+.card-hover2:hover p{
+	color:#fff;
+}
+
+.servicon i{
+	background-color:#FAFAFA !important;
+	padding-left:110px;
+	font-size:40px !important;
+	
+}
+
+.tabhead ul li a{
+	color:black !important;
+}
